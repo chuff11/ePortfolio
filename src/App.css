@@ -1,5 +1,15 @@
+.background {
+  background-color: darkslategrey;
+  margin: 0px;
+  padding: 40px;
+}
+
 .App {
   text-align: center;
+  background-color: white;
+  border: 1px, black;
+  border-bottom-left-radius: 35px;
+  border-top-right-radius: 35px;
 }
 
 .App-logo {
@@ -7,10 +17,44 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navigation {
+  position: relative;
+  display: flex;
+  text-align: right;
+  border-top-right-radius: 35px;
+}
+
+.navigation-sub {
+  width: 100%;
+  text-justify: right;
+  height: 100%;
+  padding: 20px;
+}
+
+.navigation-sub a:visited{
+  color: black;
+}
+
+.navigation-sub a:focus{
+  color: gray;
+}
+
+.navigation-sub a:hover {
+  color: darkgray;
+}
+
+.navigation-sub a{
+  text-decoration: none;
+  color: black;
+}
+
+.navigation img {
+  width: 64;
+  height: auto;
+}
+
+.item {
+  padding: 15px;
 }
 
 .App-header {
@@ -28,11 +72,3 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
