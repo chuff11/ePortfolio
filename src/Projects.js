@@ -4,7 +4,7 @@ import './App.css';
  
 function Projects(props) {
   return (
-    <div>
+    <div className="project-container">
       <h1>Projects</h1>
         <Thumbnail
         link="/twitter"
