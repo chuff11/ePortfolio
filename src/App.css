@@ -2,6 +2,7 @@
   background-color: darkslategrey;
   margin: 0px;
   padding: 40px;
+  height: 1000px;
 }
 
 .App {
@@ -31,19 +32,19 @@
   padding: 20px;
 }
 
-.navigation-sub a:visited{
+.App a:visited{
   color: black;
 }
 
-.navigation-sub a:focus{
+.App a:focus{
   color: gray;
 }
 
-.navigation-sub a:hover {
+.App a:hover {
   color: darkgray;
 }
 
-.navigation-sub a{
+.App a{
   text-decoration: none;
   color: black;
 }
