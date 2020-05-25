@@ -18,7 +18,7 @@ function App() {
           <div className="navigation-sub">
                                           
             <Link to="/" className="item">Projects</Link>
-            <Link to="/resume" className="item">Resume</Link>
+            <Link to="/resume" className="item">Résumé</Link>
             <Link to="/about" className="item">About</Link>
 
           </div>

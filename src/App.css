@@ -2,6 +2,11 @@
 
 .background {
   background-color: darkslategrey;
+  background: url(assets/bg.svg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   margin: 0px;
   padding: 40px;
   height: 1000px;
@@ -56,6 +61,14 @@
   display: grid;
   grid-template-columns: 50% 50%;
   align-items: flex-start;
+}
+
+.flex {
+  display: flex;
+  align-content: center;
+  column-count: 2;
+  width: 100%;
+  margin-left: 55px;
 }
 
 .left {
@@ -120,6 +133,11 @@
 h2 {
   margin-top: 15px;
   margin-left: 10px;
+  background: url(assets/line.svg) no-repeat bottom left; 
+  -webkit-background-size: 250px;
+  -moz-background-size: 250px;
+  -o-background-size: 250px;
+  background-size: 250px;
 }
 
 h3 {

@@ -4,7 +4,7 @@ function Articles(props) {
   return (
     <div>
       <div className="page-title">
-      <h1>Resume</h1>
+      <h1>Résumé</h1>
       </div>
       <h2>EDUCATION</h2>
       <div className="grid">
@@ -22,18 +22,22 @@ function Articles(props) {
         <span className="right">Rexburg, ID</span>
       </div>
       <h2>SKILLS</h2>
-      <div className="center">
-      <div className="grid" >
+      <div>
+      <div className="flex" >
+        <div>
         <h3>Advanced:</h3>
-        <h3>Compentent:</h3>
         <ul>
           <li>PowerApps</li>
           <li>Microsoft Office</li>
         </ul>
+        </div>
+        <div>
+        <h3>Compentent:</h3>
         <ul>
           <li>Power Automate</li>
           <li>Unity 3d</li>
         </ul>
+        </div>
       </div>
       </div>
       <h2>EXPERIENCE</h2>
