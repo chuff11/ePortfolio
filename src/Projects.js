@@ -8,8 +8,9 @@ import ninja from './assets/ninja_thumbnail.png'
 
 function Projects(props) {
   return (
-    <div className="project-container">
+    <div className="page-title">
       <h1>Projects</h1>
+        <div className="project-container">
         <Thumbnail
         link="/twitter"
         image= {cube}
@@ -30,6 +31,7 @@ function Projects(props) {
         title="Ninja Burger"
         category="Website"
         />
+        </div>
     </div>
   )
 }

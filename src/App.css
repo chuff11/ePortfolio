@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Bree+Serif&display=swap');
+
 .background {
   background-color: darkslategrey;
   margin: 0px;
@@ -6,11 +8,12 @@
 }
 
 .App {
-  text-align: center;
+  text-align: left;
   background-color: white;
   border: 1px, black;
   border-bottom-left-radius: 35px;
   border-top-right-radius: 35px;
+  font-family: 'Balsamiq Sans', cursive;
 }
 
 .App-logo {
@@ -49,6 +52,32 @@
   color: black;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: flex-start;
+}
+
+.left {
+  text-align: left;
+  margin-left: 55px;
+}
+
+.right {
+  text-align: right;
+  margin-right: 55px;
+}
+
+.center {
+  text-align: center;
+}
+
+.wide {
+  grid-column: 1 / span 2;
+  margin-left: 35px;
+  margin-right: 55px;
+}
+
 .navigation img {
   width: 64;
   height: auto;
@@ -75,12 +104,32 @@
 }
 
 .project {
-  padding: 25px;
-  background-color: lightgrey;
-  border: 1px, black;
-  border-bottom-left-radius: 35px;
-  border-top-right-radius: 35px;
   margin: 15px;
+  position: relative;
+  text-align: left;
+}
+
+.page-title h1, h2{
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+  padding-left: 35px;
+  font-family: 'Bree Serif', serif;
+}
+
+h2 {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul {
+  margin-top: 0px;
+  list-style-position: inside;
 }
 
 .project-container {
@@ -88,6 +137,21 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-content: space-around;
-  padding: 35px;
+  padding: 0px 35px 35px 35px;
+}
+
+.project-title {
+  font-family: 'Bree Serif', serif;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+}
+
+.project-category {
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: .8em;
+  position: absolute;
+  top: 30%;
+  left: 10%;
 }
 

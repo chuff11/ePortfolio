@@ -3,7 +3,7 @@ import logo from './logo.svg';
 //import BrowserRouter, Route and Link
 import { BrowserRouter, Route, Link } from 'react-router-dom'; 
 import Projects from './Projects.js'; 
-import Articles from './Articles.js'; 
+import Resume from './Resume.js'; 
 import About from './About.js';
 import './App.css';
 
@@ -18,14 +18,14 @@ function App() {
           <div className="navigation-sub">
                                           
             <Link to="/" className="item">Projects</Link>
-            <Link to="/articles" className="item">Articles</Link>
+            <Link to="/resume" className="item">Resume</Link>
             <Link to="/about" className="item">About</Link>
 
           </div>
         </div>
 
         <Route exact path="/" component={Projects} />
-        <Route path="/articles" component={Articles} />
+        <Route path="/resume" component={Resume} />
         <Route path="/about" component={About} />
       </div>
     </div>
