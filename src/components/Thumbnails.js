@@ -34,7 +34,7 @@ function Thumbnails(props) {
           image={ninja}
           title="Ninja Burger"
           category="Website"
-          desc="Schoolwork, Java validation"
+          desc="Schoolwork, Javascript validation"
           />
   
           <Thumbnail_url

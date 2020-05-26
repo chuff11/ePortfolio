@@ -11,11 +11,11 @@ function Pyramid(props) {
         <div className="MergeGrid1">
         <div className="Intro">
           <em>
-          You enter a lab, the walls are painted orange and a variety of science toys strewn haphazardly around.  The clock is ticking and the final ingredients of a secret formula are hidden in this room.  Can you and your team solve all the puzzles and complete the antidote?
+            Who wouldn't want a cute little AR app that works off their business card?  It's a brilliant talking point!
           </em>
           <br></br><br></br>
           <div className="emphasize">
-            I built a custom Merge Cube app for Enkryption, formerly of Provo Utah.  This app was covered with puzzles that had to be solved to get the clues needed to complete the room and save the mad genius.
+            The Pyrimid Puzzle was made for Enkryption, formerly of Provo UT, as a publicity event.  Each side had a puzzle, and when the puzzles were complete the pyrimid opens revealing one number of a code.
             </div>
         </div>
         <div className="EnkryptionImage">

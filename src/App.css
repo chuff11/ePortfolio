@@ -293,6 +293,23 @@ ul {
   height: fit-content;
 }
 
+.AboutGrid1 {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  margin: 0 35px 35px 35px;
+}
+
+.Image {
+  border: 1px black;
+  border-bottom-left-radius: 35px;
+  border-top-right-radius: 35px;
+  font-size: 1em; 
+  box-shadow: 4px 4px 5px grey;
+  height: fit-content;
+  margin-bottom: 35px;
+  margin-left: 35px;
+}
+
 @media screen and (min-width: 400px) {
 
   .MergeGrid1 {
