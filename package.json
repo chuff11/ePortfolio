@@ -2,7 +2,7 @@
   "name": "eportfolio-app",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://chuff11.github.io/index.html",
+  "homepage": "https://chuff11.github.io/ePortfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

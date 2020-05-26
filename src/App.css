@@ -187,6 +187,13 @@ ul {
   left: 10%;
 }
 
+.project-description {
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+  color: #31eff7;
+}
+
 .resume {
   font-size: .9em;
 }
@@ -227,4 +234,70 @@ ul {
 .project-left {
   margin-right: 55px;
   width: 45%;
+}
+
+.emphasize {
+  font-size: 1.1em;
+  padding: 0 35px;
+}
+
+@media screen and (min-width: 400px) {
+
+  .MergeGrid1 {
+    display: grid;
+    grid-template-columns: 60% 20%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .Intro {
+    margin: 35px;
+    font-size: .9em;
+  }
+
+  .WhatBox {
+    text-align: center;
+    background-color: #057579;
+    padding: 20px;
+    border: 1px black;
+    border-bottom-left-radius: 35px;
+    border-top-right-radius: 35px;
+    font-size: 1em; 
+    box-shadow: 4px 4px 5px grey;
+    height: fit-content;
+    color: white;
+  }
+
+  .WhatBox h3 {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 1.2em;
+    color: #99f7fb;
+  }
+
+  .WhatBox a, .WhatBox a.visited {
+    color: #31eff7;
+  }
+
+  .Skills {
+    text-align: left;
+  }
+
+  .Skills ul {
+    padding: 0px;
+  }
+
+  .MergeGrid2 {
+    Display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 35px;
+    margin-left: 35px;
+    align-content: center;
+  }
+
+  .MergeGrid2 h3 {
+    margin: 0px;
+    padding: 0px;
+  }
 }

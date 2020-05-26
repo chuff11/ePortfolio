@@ -69,6 +69,8 @@ function Articles(props) {
               <span className="right">Salt Lake City, UT</span>
               <ul className="wide">
                 <li>Led groups of up to 25 volunteers to clean large areas within a limited time frame</li>
+                <li>Cross-trained in a variety of assignments to fill for low-staffing on the team</li>
+                <li>Conducted group and individual training on high-speed burnishers and auto-scrubbers to improve team flexibility</li>
               </ul>
           </div>
       </div>
