@@ -1,11 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './assets/name.svg';
 //import BrowserRouter, Route and Link
 import { BrowserRouter, Route, Link } from 'react-router-dom'; 
 import Projects from './Projects.js'; 
 import Resume from './Resume.js'; 
 import About from './About.js';
 import './App.css';
+import MergeCube from './components/MergeCube';
+//import Ninja from './assets/NinjaBurger/index.html';
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
         </div>
 
         <Route exact path="/" component={Projects} />
+        <Route path="/MergeCube" component={MergeCube} />
         <Route path="/resume" component={Resume} />
         <Route path="/about" component={About} />
       </div>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@300&display=swap');
 
 .background {
   background-color: darkslategrey;
@@ -9,7 +9,6 @@
   background-size: cover;
   margin: 0px;
   padding: 40px;
-  height: 1000px;
 }
 
 .App {
@@ -18,7 +17,8 @@
   border: 1px, black;
   border-bottom-left-radius: 35px;
   border-top-right-radius: 35px;
-  font-family: 'Balsamiq Sans', cursive;
+  font-family: 'Raleway', sans-serif;
+  box-shadow: 4px 4px 5px black;
 }
 
 .App-logo {
@@ -67,8 +67,8 @@
   display: flex;
   align-content: center;
   column-count: 2;
-  width: 100%;
   margin-left: 55px;
+  margin-right: 35px;
 }
 
 .left {
@@ -116,23 +116,20 @@
   color: #61dafb;
 }
 
-.project {
-  margin: 15px;
-  position: relative;
-  text-align: left;
-}
-
-.page-title h1, h2{
+.page-title h1, h2, h3{
   text-align: left;
   padding: 0px;
   margin: 0px;
   padding-left: 35px;
-  font-family: 'Bree Serif', serif;
+  font-family: 'Playfair Display', serif;
+  color: #013a3c;
+  font-weight: 150;
 }
 
 h2 {
   margin-top: 15px;
   margin-left: 10px;
+  padding-bottom: 6px;
   background: url(assets/line.svg) no-repeat bottom left; 
   -webkit-background-size: 250px;
   -moz-background-size: 250px;
@@ -158,18 +155,76 @@ ul {
   padding: 0px 35px 35px 35px;
 }
 
+.project {
+  margin: 15px;
+  position: relative;
+  text-align: left;
+  border: 1px black;
+  border-bottom-left-radius: 35px;
+  border-top-right-radius: 35px;
+}
+
+.project img {
+  border: 1px black;
+  border-bottom-left-radius: 35px;
+  border-top-right-radius: 35px;
+  box-shadow: 4px 4px 5px gray;
+}
+
 .project-title {
-  font-family: 'Bree Serif', serif;
+  font-family: 'Playfair Display', serif;
+  color: #d3fbfd;
   position: absolute;
-  top: 15%;
+  top: 5%;
   left: 5%;
 }
 
 .project-category {
-  font-family: 'Balsamiq Sans', cursive;
+  color: #99f7fb;
   font-size: .8em;
   position: absolute;
-  top: 30%;
+  top: 15%;
   left: 10%;
 }
 
+.resume {
+  font-size: .9em;
+}
+
+.resume h2, h3 {
+  font-size: 1.3em;
+}
+
+.mini {
+  display: grid;
+  grid-template-columns: min-content;
+}
+
+.mini .project-title, .mini .project-category {
+  position: relative;
+  color: black;
+}
+
+.mini img {
+  height: 128px;
+  width: 128px;
+  object-fit: cover;
+}
+
+.flex-project {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: 198px 100%;
+}
+
+.project-left {
+  margin-right: 55px;
+  width: 45%;
+}

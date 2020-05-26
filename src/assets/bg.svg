@@ -19,15 +19,6 @@
      id="defs2">
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient847"
-       id="linearGradient849"
-       x1="106.37327"
-       y1="24.720406"
-       x2="0"
-       y2="48.104465"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
        id="linearGradient847">
       <stop
          style="stop-color:#023a3c;stop-opacity:1;"
@@ -36,13 +27,13 @@
       <stop
          id="stop855"
          offset="0.2146574"
-         style="stop-color:#0cd1d9;stop-opacity:0.98039216" />
+         style="stop-color:#03575b;stop-opacity:1" />
       <stop
          id="stop851"
          offset="0.45456859"
-         style="stop-color:#5ff2ca;stop-opacity:0.96078432" />
+         style="stop-color:#06674e;stop-opacity:1" />
       <stop
-         style="stop-color:#54a838;stop-opacity:0.93725491"
+         style="stop-color:#387026;stop-opacity:1"
          offset="0.73488593"
          id="stop853" />
       <stop
@@ -50,6 +41,15 @@
          offset="1"
          id="stop845" />
     </linearGradient>
+    <linearGradient
+       y2="48.104465"
+       x2="0"
+       y1="24.720406"
+       x1="106.37327"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient1649"
+       xlink:href="#linearGradient847"
+       inkscape:collect="always" />
   </defs>
   <sodipodi:namedview
      inkscape:window-maximized="0"
@@ -89,7 +89,7 @@
      id="layer2"
      inkscape:groupmode="layer">
     <rect
-       style="fill:url(#linearGradient849);fill-opacity:1;fill-rule:evenodd;stroke-width:0.264583"
+       style="fill:url(#linearGradient1649);fill-opacity:1;fill-rule:evenodd;stroke-width:0.264583"
        id="rect10"
        width="105.83334"
        height="79.375"
