@@ -6,7 +6,8 @@ import Projects from './Projects.js';
 import Resume from './Resume.js'; 
 import About from './About.js';
 import './App.css';
-import MergeCube from './components/MergeCube';
+import MergeCube from './components/MergeCube.js';
+import Pyramid from './components/Pyramid.js';
 //import Ninja from './assets/NinjaBurger/index.html';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
 
         <Route exact path="/" component={Projects} />
         <Route path="/MergeCube" component={MergeCube} />
+        <Route path="/Pyramid" component={Pyramid} />
         <Route path="/resume" component={Resume} />
         <Route path="/about" component={About} />
       </div>

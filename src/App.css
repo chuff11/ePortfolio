@@ -241,6 +241,58 @@ ul {
   padding: 0 35px;
 }
 
+.Intro {
+  margin: 35px;
+  font-size: .9em;
+}
+
+.WhatBox {
+  text-align: center;
+  background-color: #057579;
+  padding: 20px;
+  border: 1px black;
+  border-bottom-left-radius: 35px;
+  border-top-right-radius: 35px;
+  font-size: 1em; 
+  box-shadow: 4px 4px 5px grey;
+  height: fit-content;
+  color: white;
+}
+
+.WhatBox h3 {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-size: 1.2em;
+  color: #99f7fb;
+}
+
+.WhatBox a, .WhatBox a.visited {
+  color: #31eff7;
+}
+
+.Skills {
+  text-align: left;
+}
+
+.Skills ul {
+  padding: 0px;
+}
+
+.MergeGrid2 h3 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.EnkryptionImage img{
+  border: 1px black;
+  border-bottom-left-radius: 35px;
+  border-top-right-radius: 35px;
+  font-size: 1em; 
+  box-shadow: 4px 4px 5px grey;
+  height: fit-content;
+}
+
 @media screen and (min-width: 400px) {
 
   .MergeGrid1 {
@@ -250,54 +302,11 @@ ul {
     text-align: center;
   }
 
-  .Intro {
-    margin: 35px;
-    font-size: .9em;
-  }
-
-  .WhatBox {
-    text-align: center;
-    background-color: #057579;
-    padding: 20px;
-    border: 1px black;
-    border-bottom-left-radius: 35px;
-    border-top-right-radius: 35px;
-    font-size: 1em; 
-    box-shadow: 4px 4px 5px grey;
-    height: fit-content;
-    color: white;
-  }
-
-  .WhatBox h3 {
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-    font-size: 1.2em;
-    color: #99f7fb;
-  }
-
-  .WhatBox a, .WhatBox a.visited {
-    color: #31eff7;
-  }
-
-  .Skills {
-    text-align: left;
-  }
-
-  .Skills ul {
-    padding: 0px;
-  }
-
   .MergeGrid2 {
     Display: grid;
     grid-template-columns: 50% 50%;
     column-gap: 35px;
     margin-left: 35px;
     align-content: center;
-  }
-
-  .MergeGrid2 h3 {
-    margin: 0px;
-    padding: 0px;
   }
 }
