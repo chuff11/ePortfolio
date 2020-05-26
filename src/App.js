@@ -8,12 +8,13 @@ import About from './About.js';
 import './App.css';
 import MergeCube from './components/MergeCube.js';
 import Pyramid from './components/Pyramid.js';
-//import Ninja from './assets/NinjaBurger/index.html';
+import bg from './assets/bg.svg'
 
 function App() {
   return (
     <BrowserRouter>
     <div className="background">
+      <img src={bg} alt="" id="bg" />
       <div className="App">
       
         <div className="navigation">
