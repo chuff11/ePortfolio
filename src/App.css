@@ -25,6 +25,7 @@
 
 .App {
   position: absolute;
+  max-width: 1100px;
   margin: 40px;
   text-align: left;
   background-color: white;
@@ -43,8 +44,16 @@
 .navigation {
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   text-align: right;
   border-top-right-radius: 35px;
+}
+
+@media screen and (min-width: 840px) {
+  .navigation {
+    flex-wrap: nowrap;
+  }
+
 }
 
 .navigation-sub {
@@ -213,8 +222,13 @@ ul {
   font-size: .9em;
 }
 
-.resume h2, h3 {
+.resume h2, .resume h3 {
   font-size: 1.3em;
+  line-height: 2em;
+}
+
+.last {
+  margin-bottom: 35px;
 }
 
 .mini {
@@ -225,6 +239,10 @@ ul {
 .mini .project-title, .mini .project-category {
   position: relative;
   color: black;
+}
+
+.mini .project-description {
+  color: #00000000;
 }
 
 .mini img {

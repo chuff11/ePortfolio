@@ -72,6 +72,25 @@ function Articles(props) {
                 <li>Cross-trained in a variety of assignments to fill for low-staffing on the team</li>
                 <li>Conducted group and individual training on high-speed burnishers and auto-scrubbers to improve team flexibility</li>
               </ul>
+            </div>
+            <h2>Volunteering</h2>
+            <div className="grid">
+              <span className="left">Festival of Trees</span>	
+              <span className="right">2020</span>
+              <span className="left"><strong>Graphic Designer</strong></span>	
+              <span className="right">Atlanta, GA</span>
+              <ul className="wide">
+                <li>Worked with festival coordinators to design to-scale layouts for trees and boothes for multiple room dimensions to facilitate decision making</li>
+                <li>Polished two designs to be used in finalizing approval for and marketing the new event</li>              
+              </ul>
+              <span className="left">Artists in Motion, Homeschool Co-op</span>	
+              <span className="right">2017-2020</span>
+              <span className="left"><strong>Teacher</strong></span>	
+              <span className="right">Bountiful, UT</span>
+              <ul className="wide">
+                <li>Taught classes in Science, History and P.E. to kids ages 3 and 9-11</li>
+                <li className="last">Assisted in a variety of classes for children ages 3-14, including Humanities, Painting, Theatre and more</li>
+              </ul>
           </div>
       </div>
     </div>

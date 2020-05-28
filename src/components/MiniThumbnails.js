@@ -1,5 +1,6 @@
 import React from "react";
 import Thumbnail from './Thumbnail.js';
+import Thumbnail_url from './Thumbnail_url.js';
 import '../App.css';
 import cube from '../assets/CubeThumbnail.png'
 import pyramid from '../assets/Pyramid_Thumbnail.png'
@@ -26,18 +27,20 @@ function MiniThumbnails(props) {
           category="Mobile App"
           />
           
-          <Thumbnail
-          link="/assets/NinjaBurger/index.html"
+          <Thumbnail_url
+          link="https://htmlpreview.github.io/?https://github.com/chuff11/NinjaBurgerWebsite/blob/master/index.html"
           image={ninja}
           title="Ninja Burger"
           category="Website"
+          desc="Schoolwork, Javascript validation"
           />
   
-          <Thumbnail
-          link="/photoshop"
+          <Thumbnail_url
+          link="https://htmlpreview.github.io/?https://github.com/chuff11/ZenDoodleWebsite/blob/master/index.html"
           image={zen}
           title="Zen Doodle"
           category="Website"
+          desc="Schoolwork, Responsive design"
           />
           </div>
     </div>
