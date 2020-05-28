@@ -21,18 +21,18 @@ function App() {
           <img src={logo} className="logo-image" alt="Logo Image" />
           <div className="navigation-sub">
                                           
-            <Link to="/" className="item">Projects</Link>
-            <Link to="/resume" className="item">Résumé</Link>
-            <Link to="/about" className="item">About</Link>
+            <Link to="/ePortfolio/" className="item">Projects</Link>
+            <Link to="/ePortfolio/resume" className="item">Résumé</Link>
+            <Link to="/ePortfolio/about" className="item">About</Link>
 
           </div>
         </div>
 
-        <Route exact path="/" component={Projects} />
-        <Route path="/MergeCube" component={MergeCube} />
-        <Route path="/Pyramid" component={Pyramid} />
-        <Route path="/resume" component={Resume} />
-        <Route path="/about" component={About} />
+        <Route exact path="/ePortfolio/" component={Projects} />
+        <Route path="/ePortfolio/MergeCube" component={MergeCube} />
+        <Route path="/ePortfolio/Pyramid" component={Pyramid} />
+        <Route path="/ePortfolio/resume" component={Resume} />
+        <Route path="/ePortfolio/about" component={About} />
       </div>
     </div>
     </BrowserRouter>

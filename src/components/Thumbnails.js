@@ -18,7 +18,7 @@ function Thumbnails(props) {
           image= {cube}
           title="Merge Cube Puzzle"
           category="Mobile App"
-          desc="Designed for Enkryption, Provo UT"
+          desc="Enkryption, Provo UT"
           />
           
           <Thumbnail
@@ -26,7 +26,7 @@ function Thumbnails(props) {
           image={pyramid}
           title="Pyramid Puzzle"
           category="Mobile App"
-          desc="Designed for Enkryption, Provo UT"
+          desc="Enkryption, Provo UT"
           />
           
           <Thumbnail_url
@@ -34,7 +34,7 @@ function Thumbnails(props) {
           image={ninja}
           title="Ninja Burger"
           category="Website"
-          desc="Schoolwork, Javascript validation"
+          desc="Javascript validation"
           />
   
           <Thumbnail_url
@@ -42,7 +42,7 @@ function Thumbnails(props) {
           image={zen}
           title="Zen Doodle"
           category="Website"
-          desc="Schoolwork, Responsive design"
+          desc="Responsive design"
           />
           </div>
     </div>
