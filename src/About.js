@@ -21,10 +21,10 @@ function About(props) {
           If you happen to be in the market for an AR enthusiast, let's talk!
           <br /><br />
           <a href = "https://linkedin.com/in/cynthia-huffman/">
-            <img src={li} alt = "Linked In" />
+            <img src={li} alt = "Linked In" className="last" />
           </a>
           <a href = "mailto: cynthia.huffman7@gmail.com">
-            <img src={gmail} alt = "Gmail" />
+            <img src={gmail} alt = "Gmail" className="last" />
           </a>
 
           </div>
