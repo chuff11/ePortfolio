@@ -14,7 +14,7 @@ function Thumbnails(props) {
     <div className="page-title">
           <div className="project-container">
           <Thumbnail
-          link="/MergeCube"
+          link="ePortfolio/MergeCube"
           image= {cube}
           title="Merge Cube Puzzle"
           category="Mobile App"
@@ -22,7 +22,7 @@ function Thumbnails(props) {
           />
           
           <Thumbnail
-          link="/Pyramid"
+          link="ePortfolio/Pyramid"
           image={pyramid}
           title="Pyramid Puzzle"
           category="Mobile App"
