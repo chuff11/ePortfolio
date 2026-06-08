@@ -22,7 +22,7 @@ function App() {
           <div className="navigation-sub">
                                           
             <Link to="/ePortfolio/" className="item">Projects</Link>
-            <Link to="/ePortfolio/resume" className="item">Résumé</Link>
+            <Link to="/ePortfolio/resume" className="item">Resumé</Link>
             <Link to="/ePortfolio/about" className="item">About</Link>
 
           </div>
