@@ -4,7 +4,7 @@ function Articles(props) {
   return (
     <div>
       <div className="page-title">
-      <h1>Résumé</h1>
+      <h1>Resumé</h1>
       </div>
       <div className="resume">
         <h2>EDUCATION</h2>
@@ -33,7 +33,7 @@ function Articles(props) {
           </ul>
           </div>
           <div>
-          <h3>Compentent:</h3>
+          <h3>Competent:</h3>
           <ul>
             <li>Power Automate</li>
             <li>Unity 3d</li>
@@ -84,12 +84,12 @@ function Articles(props) {
                 <li>Polished two designs to be used in finalizing approval for and marketing the new event</li>              
               </ul>
               <span className="left">Artists in Motion, Homeschool Co-op</span>	
-              <span className="right">2017-2020</span>
+              <span className="right">2017-Current</span>
               <span className="left"><strong>Teacher</strong></span>	
               <span className="right">Bountiful, UT</span>
               <ul className="wide">
-                <li>Taught classes in Science, History and P.E. to kids ages 3 and 9-11</li>
-                <li className="last">Assisted in a variety of classes for children ages 3-14, including Humanities, Painting, Theatre and more</li>
+                <li>Taught classes in Art, Programming, Science, History and P.E. to kids ages 3 to 18</li>
+                <li className="last">Assisted in a variety of classes for children, including Humanities, Painting, Theatre and more</li>
               </ul>
           </div>
       </div>
