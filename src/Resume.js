@@ -44,7 +44,17 @@ function Articles(props) {
         <h2>EXPERIENCE</h2>
           <div className="grid">
               <span className="left">The Church of Jesus Christ of Latter-Day Saints</span>	
-              <span className="right">04/2019 – Present</span>
+              <span className="right">01/2026 – Present</span>
+              <span className="left"><strong>Custodial Supervisor</strong></span>
+              <span className="right">Salt Lake City, UT</span>
+              <ul className="wide">
+                <li>Streamlined processes and eliminated extra paperwork throughout the department by making apps and flows with PowerApps and Power Automate</li>
+                <li>Lead a team of 10 members to keep BYU Salt Lake Center at a set cleanliness standard</li>
+                <li>Conducted individual and team trainings on safety, processes, and proper use of machinery with no OSHA-reportable incidences in the last year</li>
+                <li>Strategize priorities to maintain the standard with teams down to half staffing capacity for weeks at a time</li>
+              </ul>
+              <span className="left">The Church of Jesus Christ of Latter-Day Saints</span>	
+              <span className="right">04/2019 – 10/2026</span>
               <span className="left"><strong>Custodial Lead</strong></span>
               <span className="right">Salt Lake City, UT</span>
               <ul className="wide">
